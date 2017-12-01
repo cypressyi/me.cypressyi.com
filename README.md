@@ -1,4 +1,5 @@
-Person Portfolio Website
-[me.cypressyi.com](me.cypressyi.com)
+[Person Portfolio Website](https://me.cypressyi.com)
+
+Create by [create-react-app](https://github.com/facebookincubator/create-react-app).
 
 Hosting on Netlify.
