@@ -1,33 +1,43 @@
-import { Button } from 'reactbulma';
-import styled from 'styled-components';
+// import { Grid } from 'semantic-ui-react';
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styled, { injectGlobal } from 'styled-components';
+import { Row, Col } from 'antd';
+// import './App.css';
 
+injectGlobal`
+  body {
+    height: 100%;
+    width: 100%;
+    background-color: #bcdee7;
+  }
+`;
 
-const StyledButton = styled(Button)`
-color: palevioletred;
-font-size: 1em;
-margin: 1em;
-padding: 0.25em 1em;
-border: 2px solid palevioletred;
-border-radius: 3px;
+const Container = styled.section`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap:wrap;
+`;
+
+const Wrapper = styled.div`
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 100%;
+  max-width: 992px;
+  min-height: 1000px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 6px 6px rgba(0,0,0,0.16), 0px 6px 6px rgba(0,0,0,0.23);
+  padding: 50px 50px;
 `;
 
 const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1 className="App-title">Welcome to React</h1>
-      </header>
-      <p className="App-intro">
-        To get started, edit <code>src/App.js</code> and save to reload.
-      </p>
-      <StyledButton primary>Primary</StyledButton>
-    </div>
+    <Container>
+      <Wrapper>
+      123
+      </Wrapper>
+    </Container>
   );
 };
-
-
 export default App;
