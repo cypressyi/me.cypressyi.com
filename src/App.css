@@ -96,5 +96,11 @@ h2 {
 }
 
 .portfolio-desc {
+  min-height: 63px;
+}
 
+@media screen and (max-width: 950px) and (min-width: 768px) {
+  .portfolio-desc {
+    min-height: 105px;
+  }
 }

@@ -29,7 +29,17 @@ const App = () => {
           </Col>
           <Col span={24}>
             <h2>Summary</h2>
-            <p>網站開發相關經驗約一年半，對於網路相關的一切事物均感興趣，相信科技的進步與環境的改變密不可分。對於網站前後端皆有基礎，目前正熟習 Javascript(ES6) 與 React 相關技術。</p>
+            <p>網站開發相關經驗約一年半，對於網路相關的一切事物均感興趣，相信科技的進步與環境的改變密不可分。對於網站前後端皆有基礎，目前正在學習 Javascript(ES6) 與相關的前端框架</p>
+          </Col>
+          <Col span={24}>
+            <h2>Summary of skills</h2>
+            <ul className="job-description">
+              <li>HTML、CSS、Javascript、PHP</li>
+              <li>SASS、NPM、Webpack、Git</li>
+              <li>Wordpress、React</li>
+              <li>對於網站前後端運作皆有基本認知，有過從零獨立開發並架設網站的經驗</li>
+              <li>SEO 優化相關經驗，熟習 Google Analytics、Search Console 等工具</li>
+            </ul>
           </Col>
           <Col span={24}>
             <h2>Work experience</h2>
@@ -67,16 +77,6 @@ const App = () => {
             </Timeline>
           </Col>
           <Col span={24}>
-            <h2>Main skill</h2>
-            <ul className="job-description">
-              <li>HTML、CSS、Javascript、PHP</li>
-              <li>SASS、NPM、Webpack、Git</li>
-              <li>Wordpress、React</li>
-              <li>對於網站前後端運作皆有基本認知，有過從零獨立開發並架設網站的經驗</li>
-              <li>SEO 優化相關經驗，熟習 Google Analytics、Search Console 等工具</li>
-            </ul>
-          </Col>
-          <Col span={24}>
             <h2>Education</h2>
             <div>中國文化大學, 資訊工程學系 <span className="job-date">2011/09 ~ 2014/06</span></div>
           </Col>
@@ -86,7 +86,7 @@ const App = () => {
           <Col span={24}>
             <h2>Portfolio</h2>
             <Row gutter={16}>
-              <Col className="portfolio-item" xs={24} sm={12} md={8}>
+              <Col className="portfolio-item" sm={24} md={12}>
                 <a href="https://towingnet.com.tw" rel="noopener noreferrer" target="_blank">
                   <Card
                     hoverable
@@ -94,69 +94,67 @@ const App = () => {
                   >
                     <h3>台灣道路救援網</h3>
                     <ul className="portfolio-desc">
-                      <li>路程計價系統</li>
-                      <li>SEO 優化</li>
-                      <li>官網開發、營運</li>
+                      <li>使用 google map api 與 vuejs 製作救援計價系統</li>
+                      <li>SEO 優化，主要關鍵字皆列於 google 搜尋第一頁</li>
+                      <li>網站架設並運行於 GCP</li>
                     </ul>
                   </Card>
                 </a>
               </Col>
-              <Col className="portfolio-item" xs={24} sm={12} md={8}>
-                <a href="https://towingnet.com.tw" rel="noopener noreferrer" target="_blank">
+              <Col className="portfolio-item" sm={24} md={12}>
+                <a href="https://www.plain-me.com/" rel="noopener noreferrer" target="_blank">
                   <Card
                     hoverable
                     cover={<img src={portfolio_cover_2}/>}
                   >
                     <h3>Plain-me</h3>
                     <ul className="portfolio-desc">
-                      <li>前端頁面製作</li>
-                      <li>商品相簿 Carousel</li>
-                      <li>CSS 組織</li>
+                      <li>端頁面切版製作</li>
+                      <li>頁面互動效果、相簿製作</li>
+                      <li>CSS 組織（RSCSS）</li>
                     </ul>
                   </Card>
                 </a>
               </Col>
-              <Col className="portfolio-item" xs={24} sm={12} md={8}>
-                <a href="https://towingnet.com.tw" rel="noopener noreferrer" target="_blank">
+              <Col className="portfolio-item" sm={24} md={12}>
+                <a href="https://www.tiandiren.tw/" rel="noopener noreferrer" target="_blank">
                   <Card
                     hoverable
                     cover={<img src={portfolio_cover_3}/>}
                   >
                     <h3>天地人文創</h3>
                     <ul className="portfolio-desc">
-                      <li>購物車系統客製化</li>
-                      <li>Shortcode 嵌入</li>
-                      <li>部分版面改版</li>
+                      <li>Woocommerce 購物車客製化</li>
+                      <li>Shortcode 嵌入製作</li>
                     </ul>
                   </Card>
                 </a>
               </Col>
-              <Col className="portfolio-item" xs={24} sm={12} md={8}>
-                <a href="https://towingnet.com.tw" rel="noopener noreferrer" target="_blank">
+              <Col className="portfolio-item" sm={24} md={12}>
+                <a href="#" rel="noopener noreferrer" target="_blank">
                   <Card
                     hoverable
-                    cover={<img src={"http://fakeimg.pl/1200x666/282828/EAE0D0/?text=Project"}/>}
+                    cover={<img src={"https://fakeimg.pl/1200x666/282828/939393/?text=Project"}/>}
                   >
                     <h3>群眾募資平台</h3>
                     <ul className="portfolio-desc">
-                      <li>部分前端切版</li>
-                      <li>電子報系統（Sendgrid）</li>
+                      <li>前端頁面切版製作</li>
+                      <li>電子報系統（Sendgrid）串接</li>
                       <li>金流串接（歐付寶）</li>
                     </ul>
                   </Card>
                 </a>
               </Col>
-              <Col className="portfolio-item" xs={24} sm={12} md={8}>
-                <a href="https://towingnet.com.tw" rel="noopener noreferrer" target="_blank">
+              <Col className="portfolio-item" sm={24} md={12}>
+                <a href="#" rel="noopener noreferrer" target="_blank">
                   <Card
                     hoverable
-                    cover={<img src={"http://fakeimg.pl/1200x666/282828/EAE0D0/?text=Project"}/>}
+                    cover={<img src={"https://fakeimg.pl/1200x666/282828/939393/?text=Project"}/>}
                   >
                     <h3>品牌形象官網</h3>
                     <ul className="portfolio-desc">
-                      <li>前端頁面製作</li>
                       <li>WP 主題製作</li>
-                      <li>串接點數系統</li>
+                      <li>RWD 前端頁面製作</li>
                     </ul>
                   </Card>
                 </a>
