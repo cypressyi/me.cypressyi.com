@@ -1,10 +1,14 @@
 // import { Grid } from 'semantic-ui-react';
 import React from 'react';
 import { Row, Col, Icon, Divider, Timeline, Card } from 'antd';
+import ReactGA from 'react-ga';
 import './App.css';
 import portfolio_cover_1 from './assets/img/cover_1.jpg';
 import portfolio_cover_2 from './assets/img/cover_2.jpg';
 import portfolio_cover_3 from './assets/img/cover_3.jpg';
+
+ReactGA.initialize('UA-93114522-4');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 
 const App = () => {
