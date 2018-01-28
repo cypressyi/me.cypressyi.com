@@ -1,18 +1,18 @@
 import React from 'react';
 import { Row, Col, Icon } from 'antd';
 
-function Profile() {
+function Profile(props) {
   return (
     <Row>
       <Col span={24}>
-        <h1>邱毅柏</h1>
-        <h2>Web developer</h2>
+        <h1>{props.profileData.name}</h1>
+        <h2>{props.profileData.label}</h2>
         <div className="contact">
           <div>
-            <Icon type="mobile" /> 0935-828-026
+            <Icon type="mobile" /> {props.profileData.email}
           </div>
           <div>
-            <Icon type="mail" /> cypressyi1990@gmail.com
+            <Icon type="mail" /> {props.profileData.phone}
           </div>
         </div>
       </Col>

@@ -13,18 +13,27 @@ import Portfolio from './components/Portfolio';
 ReactGA.initialize('UA-93114522-4');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
-const App = () => {
+const App = (props) => {
+  const {
+    profile,
+    summary,
+    skill,
+    experience,
+    education,
+    portfolio,
+  } = props.resumeData;
+
   return (
     <div className="container">
       <div className="wrapper">
-        <Profile />
+        <Profile profileData={profile} />
         <Divider />
-        <Summary />
-        <Skill />
-        <Experience />
-        <Education />
+        <Summary summaryData={summary} />
+        <Skill skillData={skill} />
+        <Experience experienceData={experience} />
+        <Education educationData={education} />
         <Divider />
-        <Portfolio />
+        <Portfolio portfolioData={portfolio} />
       </div>
     </div>
   );

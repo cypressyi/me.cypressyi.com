@@ -1,0 +1,112 @@
+{
+  "profile": {
+    "name": "邱毅柏",
+    "label": "Web developer",
+    "email": "cypressyi1990@gmail.com",
+    "phone": "0935-828-026"
+  },
+  "summary": "網站開發相關經驗約一年半，對於網路相關的一切事物均感興趣，相信科技的進步與環境的改變密不可分。對於網站前後端皆有基礎，目前正在學習 Javascript(ES6) 與相關的前端框架",
+  "skill": [
+    "HTML、CSS、Javascript、PHP",
+    "SASS、NPM、Webpack、Git",
+    "Wordpress、React",
+    "對於網站前後端運作皆有基本認知，有過從零獨立開發並架設網站的經驗",
+    "SEO 優化相關經驗，熟習 Google Analytics、Search Console 等工具"
+  ],
+  "experience": [
+    {
+      "name": "台灣道路救援網",
+      "description": "",
+      "position": "外包工程師",
+      "url": "https://towingnet.com.tw",
+      "startDate": "2016/11",
+      "endDate": "2017/06",
+      "highlights": [
+        "使用 Wordpress 開發公司官方網站，並架設於 Google cloud",
+        "執行 SEO 優化網站，道路救援相關頁面皆列於 Google 搜尋第一頁",
+        "網站數據串接與分析，包含 Google Analytics、Search Console 與 Adwords"
+      ]
+    },
+    {
+      "name": "FLiPER Creative Inc.",
+      "description": "",
+      "position": "網站工程師",
+      "url": "https://flipermag.com/",
+      "startDate": "2015/10",
+      "endDate": "2016/09",
+      "highlights": [
+        "Wordpress 開發主題版面與網站前後端，內容包含品牌形象官網與媒體網站",
+        "基於 Wordpress 開發電子商務系統，並使用歐付寶串接網站金流"
+      ]
+    },
+    {
+      "name": "接棒啟蒙 - Agile 網站開發實戰營",
+      "description": "",
+      "position": "課程助教",
+      "url": "https://batonproject.com/portfolio/careerhunter/",
+      "startDate": "2015/01",
+      "endDate": "2015/09",
+      "highlights": [
+        "擔任 Scrum 課程模擬 Product Owner，居中協調開發方向與客戶需求",
+        "擔任課程助教，協助前端技術支援與分享"
+      ]
+    }
+  ],
+  "education": {
+    "institution": "中國文化大學",
+    "area": "資訊工程學系",
+    "studyType": "學士",
+    "startDate": "2011/09",
+    "endDate": "2014/06"
+  },
+  "portfolio": [
+    {
+      "name": "台灣道路救援網",
+      "url": "https://towingnet.com.tw/",
+      "cover": "../images/cover_towingnet.jpg",
+      "highlights": [
+        "使用 google map api 與 vuejs 製作救援計價系統",
+        "SEO 優化，主要關鍵字皆列於 google 搜尋第一頁",
+        "網站架設並運行於 GCP"
+      ]
+    },
+    {
+      "name": "Plain-me",
+      "url": "https://www.plain-me.com/",
+      "cover": "../images/cover_plainme.jpg",
+      "highlights": [
+        "前端頁面切版製作",
+        "頁面互動效果、相簿製作",
+        "CSS 組織（RSCSS）"
+      ]
+    },
+    {
+      "name": "天地人文創",
+      "url": "https://www.tiandiren.tw/",
+      "cover": "../images/cover_tiandiren.jpg",
+      "highlights": [
+        "Woocommerce 購物車客製化",
+        "Shortcode 嵌入製作"
+      ]
+    },
+    {
+      "name": "群眾募資平台",
+      "url": "",
+      "cover": "https://fakeimg.pl/1200x666/282828/939393/?text=Project",
+      "highlights": [
+        "前端頁面切版製作",
+        "電子報系統（Sendgrid）串接",
+        "金流串接（歐付寶）"
+      ]
+    },
+    {
+      "name": "品牌形象官網",
+      "url": "",
+      "cover": "https://fakeimg.pl/1200x666/282828/939393/?text=Project",
+      "highlights": [
+        "WP 主題製作",
+        "RWD 前端頁面製作"
+      ]
+    }
+  ]
+}
