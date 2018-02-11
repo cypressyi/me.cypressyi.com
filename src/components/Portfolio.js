@@ -10,13 +10,14 @@ function Portfolio(props) {
           {
             props.portfolioData.map((item, index) => {
               return (
-                <Col className="portfolio-item" sm={24} md={12}>
+                <Col className="portfolio-item" sm={16}>
                   <a href={item.url} rel="noopener noreferrer" target="_blank">
                     <Card
                       hoverable
                       cover={<img src={item.cover} alt={item.name} />}
                     >
                       <h3>{item.name}</h3>
+                      <a href={item.desc_url} rel="noopener noreferrer" target="_blank">{item.desc}</a> 
                       <ul className="portfolio-desc">
                         {
                           item.highlights.map((item, index) => {
