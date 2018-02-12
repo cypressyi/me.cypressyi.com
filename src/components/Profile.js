@@ -14,6 +14,9 @@ function Profile(props) {
           <div>
             <Icon type="mail" /> {props.profileData.phone}
           </div>
+          <div>
+            <Icon type="github" /> <a className="quiet-link" href={props.profileData.github} rel="noopener noreferrer" target="_blank">{props.profileData.github}</a>
+          </div>
         </div>
       </Col>
     </Row>

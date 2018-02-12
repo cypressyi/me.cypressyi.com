@@ -9,26 +9,32 @@ function Portfolio(props) {
         <Row gutter={16}>
           {
             props.portfolioData.map((item, index) => {
+                
               return (
                 <Col className="portfolio-item" sm={16}>
-                  <a href={item.url} rel="noopener noreferrer" target="_blank">
-                    <Card
-                      hoverable
-                      cover={<img src={item.cover} alt={item.name} />}
-                    >
-                      <h3>{item.name}</h3>
-                      <a href={item.desc_url} rel="noopener noreferrer" target="_blank">{item.desc}</a> 
-                      <ul className="portfolio-desc">
-                        {
-                          item.highlights.map((item, index) => {
-                            return (
-                              <li key={index}>{item}</li>
-                            );
-                          })
-                        }
-                      </ul>
-                    </Card>
-                  </a>
+                  <Card
+                    cover={
+                      <a href={item.url} rel="noopener noreferrer" target="_blank">
+                        <img className="portfolio-image" src={item.cover} alt={item.name} />
+                      </a>
+                    }
+                  >
+                    <h3>{item.name}</h3>
+                    {
+                      item.source !== '' &&
+                        <a href={item.source.path} rel="noopener noreferrer" target="_blank">{item.source.desc}</a>
+                    }
+                    <p>{item.desc}</p>
+                    <ul className="portfolio-desc">
+                      {
+                        item.highlights.map((item, index) => {
+                          return (
+                            <li key={index}>{item}</li>
+                          );
+                        })
+                      }
+                    </ul>
+                  </Card>
                 </Col>
               );
             })

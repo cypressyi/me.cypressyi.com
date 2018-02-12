@@ -3,7 +3,9 @@
     "name": "邱毅柏",
     "label": "Web developer",
     "email": "cypressyi1990@gmail.com",
-    "phone": "0935-828-026"
+    "phone": "0935-828-026",
+    "github": "https://github.com/cypressyi",
+    "medium": "https://medium.com/cypressyi-technote"
   },
   "summary": "網站開發相關經驗約一年半，對於網路相關的一切事物均感興趣，相信科技的進步與環境的改變密不可分。對於網站前後端皆有基礎，目前正在學習 Javascript(ES6) 與相關的前端框架",
   "skill": [
@@ -62,41 +64,67 @@
   "portfolio": [
     {
       "name": "React Todo List",
-      "desc": "程式碼連結",
-      "desc_url": "https://github.com/cypressyi/react-todo-list",
+      "source": {
+        "desc": "程式碼連結",
+        "path": "https://github.com/cypressyi/react-todo-list"
+      },
+      "desc": "Rect + Redux 的練習專案，使用者可以新增、修改、刪除、過濾事項，並且可以透過久按拖曳排列順序",
       "url": "https://nervous-stonebraker-a48ab2.netlify.com/",
       "cover": "../images/cover_todo.jpg",
       "highlights": [
-        "React + Redux 的練習專案",
-        "主要實作新增、修改、刪除的功能",
-        "可以久按拖曳排列順序"
+        "React、Redux",
+        "Ant-design"
       ]
     },
     {
       "name": "Youtube Trend",
-      "desc": "程式碼連結",
-      "desc_url": "https://github.com/cypressyi/youtube-trend",
+      "source": {
+        "desc": "程式碼連結",
+        "path": "https://github.com/cypressyi/youtube-trend"
+      },
+      "desc": "React 串接 API 的練習，使用者可以透過選單選擇地區，下方會出現對應的熱門影片列表",
       "url": "https://naughty-liskov-921c26.netlify.com/",
       "cover": "../images/cover_ytbtrend.jpg",
       "highlights": [
-        "React 串接 Youtube API 的練習",
-        "React + Redux Flow 練習",
-        "使用者可以透過選擇選單的國家區域，得到該區域目前流行的影片列表"
+        "React + Redux",
+        "semantic-UI-React",
+        "Youtube API"
+      ]
+    },
+    {
+      "name": "My Resume",
+      "source": {
+        "desc": "程式碼連結",
+        "path": "https://github.com/cypressyi/me.cypressyi.com"
+      },
+      "desc": "線上履歷，練習切分 React component，並使用 json 輸入文字資料",
+      "url": "https://me.cypressyi.com/",
+      "cover": "../images/cover_resume.jpg",
+      "highlights": [
+        "React"
       ]
     },
     {
       "name": "台灣道路救援網",
+      "source": {
+        "desc": "",
+        "path": ""
+      },
       "desc": "",
       "url": "https://towingnet.com.tw/",
       "cover": "../images/cover_towingnet.jpg",
       "highlights": [
         "Wordpress 開發官方網站並運行於 GCP",
-        "使用 google map api 與 vuejs 製作救援計價系統",
+        "使用 google map api 與  Vuejs 製作救援計價系統",
         "SEO 優化，主要關鍵字皆列於 google 搜尋第一頁"
       ]
     },
     {
       "name": "Plain-me",
+      "source": {
+        "desc": "",
+        "path": ""
+      },
       "desc": "",
       "url": "https://www.plain-me.com/",
       "cover": "../images/cover_plainme.jpg",
@@ -108,6 +136,10 @@
     },
     {
       "name": "天地人文創",
+      "source": {
+        "desc": "",
+        "path": ""
+      },
       "desc": "",
       "url": "https://www.tiandiren.tw/",
       "cover": "../images/cover_tiandiren.jpg",
@@ -118,6 +150,10 @@
     },
     {
       "name": "群眾募資平台",
+      "source": {
+        "desc": "",
+        "path": ""
+      },
       "desc": "",
       "url": "#",
       "cover": "https://fakeimg.pl/1200x666/282828/939393/?text=Project",
