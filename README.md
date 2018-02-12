@@ -1,5 +1,11 @@
-[Person Portfolio Website](https://me.cypressyi.com)
+## Person Portfolio Website
 
-Create by [create-react-app](https://github.com/facebookincubator/create-react-app).
+https://me.cypressyi.com
+
+## Tool and lib
+
+- React
+- Create-react-app
+- Ant design
 
 Hosting on Netlify.
